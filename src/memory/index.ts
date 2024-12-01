@@ -13,7 +13,6 @@ import { fileURLToPath } from 'url';
 
 // Define the path to the JSONL file, you can change this to your desired local path
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const MEMORY_FILE_PATH = path.join(__dirname, 'memory.json');
 //const MEMORY_FILE_PATH = path.join(__dirname, 'memory.json');
 const MEMORY_FILE_PATH = "/Users/collin/.claude/storage/memory/memory.json";
 
