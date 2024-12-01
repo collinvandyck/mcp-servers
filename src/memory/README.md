@@ -1,3 +1,15 @@
+# Operating:
+
+To install dependencies:
+
+- npm install -g tsx
+
+in directory:
+
+- npm init -y
+- npm install @modelcontextprotocol/sdk
+- npm install
+
 # Knowledge Graph Memory Server
 A basic implementation of persistent memory using a local knowledge graph. This lets Claude remember information about the user across chats.
 
@@ -146,7 +158,7 @@ Add this to your claude_desktop_config.json:
 
 The prompt for utilizing memory depends on the use case. Changing the prompt will help the model determine the frequency and types of memories created.
 
-Here is an example prompt for chat personalization. You could use this prompt in the "Custom Instructions" field of a [Claude.ai Project](https://www.anthropic.com/news/projects). 
+Here is an example prompt for chat personalization. You could use this prompt in the "Custom Instructions" field of a [Claude.ai Project](https://www.anthropic.com/news/projects).
 
 ```
 Follow these steps for each interaction:
